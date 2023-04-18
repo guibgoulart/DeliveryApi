@@ -1,8 +1,7 @@
-package com.deliveryapi.domain.service;
+package com.deliveryapi.application;
 
-import com.deliveryapi.domain.model.Delivery;
-import com.deliveryapi.domain.model.DeliveryStatus;
-import com.deliveryapi.domain.repository.DeliveryRepository;
+import com.deliveryapi.domain.delivery.Delivery;
+import com.deliveryapi.domain.delivery.DeliveryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

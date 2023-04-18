@@ -1,12 +1,10 @@
-package com.deliveryapi.domain.service;
+package com.deliveryapi.application;
 
-import com.deliveryapi.domain.model.Delivery;
-import com.deliveryapi.domain.model.Event;
+import com.deliveryapi.domain.delivery.Delivery;
+import com.deliveryapi.domain.event.Event;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 @RequiredArgsConstructor
 @Service

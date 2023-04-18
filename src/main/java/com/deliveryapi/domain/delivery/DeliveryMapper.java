@@ -1,8 +1,5 @@
-package com.deliveryapi.mapper;
+package com.deliveryapi.domain.delivery;
 
-import com.deliveryapi.controller.domain.response.DeliveryResponse;
-import com.deliveryapi.domain.model.Delivery;
-import com.deliveryapi.controller.domain.request.DeliveryRequest;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 

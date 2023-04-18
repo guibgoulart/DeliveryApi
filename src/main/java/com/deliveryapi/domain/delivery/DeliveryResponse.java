@@ -1,6 +1,7 @@
-package com.deliveryapi.controller.domain.response;
+package com.deliveryapi.domain.delivery;
 
-import com.deliveryapi.domain.model.DeliveryStatus;
+import com.deliveryapi.domain.recipient.RecipientResponse;
+import com.deliveryapi.domain.customer.CustomerResponse;
 import lombok.Builder;
 
 import java.math.BigDecimal;

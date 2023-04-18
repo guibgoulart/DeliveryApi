@@ -1,6 +1,6 @@
-package com.deliveryapi.domain.repository;
+package com.deliveryapi.domain.delivery;
 
-import com.deliveryapi.domain.model.Delivery;
+import com.deliveryapi.domain.delivery.Delivery;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,9 @@
-package com.deliveryapi.domain.model;
+package com.deliveryapi.domain.delivery;
 
+import com.deliveryapi.domain.customer.Customer;
 import com.deliveryapi.domain.exception.DomainException;
+import com.deliveryapi.domain.event.Event;
+import com.deliveryapi.domain.recipient.Recipient;
 import lombok.*;
 
 import javax.persistence.*;

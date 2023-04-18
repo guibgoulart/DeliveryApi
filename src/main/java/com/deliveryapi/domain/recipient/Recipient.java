@@ -1,4 +1,4 @@
-package com.deliveryapi.domain.model;
+package com.deliveryapi.domain.recipient;
 
 import lombok.*;
 

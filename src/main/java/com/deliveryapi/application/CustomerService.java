@@ -1,9 +1,9 @@
-package com.deliveryapi.domain.service;
+package com.deliveryapi.application;
 
 import com.deliveryapi.domain.exception.DomainException;
 import com.deliveryapi.domain.exception.NotFoundException;
-import com.deliveryapi.domain.model.Customer;
-import com.deliveryapi.domain.repository.CustomerRepository;
+import com.deliveryapi.domain.customer.Customer;
+import com.deliveryapi.domain.customer.CustomerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

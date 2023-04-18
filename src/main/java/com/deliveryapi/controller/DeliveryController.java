@@ -1,11 +1,11 @@
 package com.deliveryapi.controller;
 
-import com.deliveryapi.domain.model.Delivery;
-import com.deliveryapi.controller.domain.request.DeliveryRequest;
-import com.deliveryapi.domain.service.DeliveryFinishService;
-import com.deliveryapi.domain.service.DeliveryRequestService;
-import com.deliveryapi.controller.domain.response.DeliveryResponse;
-import com.deliveryapi.mapper.DeliveryMapper;
+import com.deliveryapi.domain.delivery.Delivery;
+import com.deliveryapi.domain.delivery.DeliveryRequest;
+import com.deliveryapi.application.DeliveryFinishService;
+import com.deliveryapi.application.DeliveryRequestService;
+import com.deliveryapi.domain.delivery.DeliveryResponse;
+import com.deliveryapi.domain.delivery.DeliveryMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

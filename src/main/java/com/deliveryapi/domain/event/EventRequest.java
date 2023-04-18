@@ -1,4 +1,4 @@
-package com.deliveryapi.controller.domain.request;
+package com.deliveryapi.domain.event;
 
 import javax.validation.constraints.NotBlank;
 

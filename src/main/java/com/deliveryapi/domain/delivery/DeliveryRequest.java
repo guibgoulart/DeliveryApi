@@ -1,4 +1,7 @@
-package com.deliveryapi.controller.domain.request;
+package com.deliveryapi.domain.delivery;
+
+import com.deliveryapi.domain.recipient.RecipientRequest;
+import com.deliveryapi.domain.customer.CustomerIdRequest;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;

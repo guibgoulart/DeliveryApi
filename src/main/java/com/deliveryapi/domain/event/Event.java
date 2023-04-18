@@ -1,5 +1,6 @@
-package com.deliveryapi.domain.model;
+package com.deliveryapi.domain.event;
 
+import com.deliveryapi.domain.delivery.Delivery;
 import lombok.*;
 
 import javax.persistence.*;

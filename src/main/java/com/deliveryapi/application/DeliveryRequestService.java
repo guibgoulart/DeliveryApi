@@ -1,16 +1,14 @@
-package com.deliveryapi.domain.service;
+package com.deliveryapi.application;
 
-import com.deliveryapi.domain.exception.DomainException;
 import com.deliveryapi.domain.exception.NotFoundException;
-import com.deliveryapi.domain.model.Customer;
-import com.deliveryapi.domain.model.Delivery;
-import com.deliveryapi.domain.model.DeliveryStatus;
-import com.deliveryapi.domain.repository.DeliveryRepository;
+import com.deliveryapi.domain.customer.Customer;
+import com.deliveryapi.domain.delivery.Delivery;
+import com.deliveryapi.domain.delivery.DeliveryStatus;
+import com.deliveryapi.domain.delivery.DeliveryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDateTime;
 import java.time.OffsetDateTime;
 import java.util.List;
 

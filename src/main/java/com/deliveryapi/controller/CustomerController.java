@@ -1,10 +1,10 @@
 package com.deliveryapi.controller;
 
-import com.deliveryapi.controller.domain.request.CustomerRequest;
-import com.deliveryapi.controller.domain.response.CustomerResponse;
-import com.deliveryapi.domain.model.Customer;
-import com.deliveryapi.domain.service.CustomerService;
-import com.deliveryapi.mapper.CustomerMapper;
+import com.deliveryapi.domain.customer.CustomerRequest;
+import com.deliveryapi.domain.customer.CustomerResponse;
+import com.deliveryapi.domain.customer.Customer;
+import com.deliveryapi.application.CustomerService;
+import com.deliveryapi.domain.customer.CustomerMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

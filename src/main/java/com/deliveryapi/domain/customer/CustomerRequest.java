@@ -1,4 +1,4 @@
-package com.deliveryapi.controller.domain.request;
+package com.deliveryapi.domain.customer;
 
 import lombok.Builder;
 

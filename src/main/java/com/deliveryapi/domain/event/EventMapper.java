@@ -1,9 +1,7 @@
-package com.deliveryapi.mapper;
+package com.deliveryapi.domain.event;
 
 
-import com.deliveryapi.controller.domain.request.EventRequest;
-import com.deliveryapi.controller.domain.response.EventResponse;
-import com.deliveryapi.domain.model.Event;
+import com.deliveryapi.domain.delivery.DeliveryMapper;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
