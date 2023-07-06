@@ -2,7 +2,6 @@ package com.deliveryapi.controller;
 
 import com.deliveryapi.application.DeliveryFinishService;
 import com.deliveryapi.application.DeliveryRequestService;
-import com.deliveryapi.domain.customer.CustomerMapper;
 import com.deliveryapi.domain.delivery.*;
 import com.deliveryapi.domain.customer.Customer;
 import com.deliveryapi.domain.customer.CustomerIdRequest;
