@@ -27,17 +27,17 @@ public class EventRegisterServiceTest {
 
     @Test
     public void testRegister() {
-        // Given
+        // given
         Long deliveryId = 1L;
         String description = "Test Event";
         Delivery mockDelivery = new Delivery();
 
-        // When
+        // when
         when(deliveryRequestService.findById(anyLong())).thenReturn(mockDelivery);
 
         Event event = eventRegisterService.register(deliveryId, description);
 
-        // Then
+        // then
         assertNotNull(event);
     }
 }
