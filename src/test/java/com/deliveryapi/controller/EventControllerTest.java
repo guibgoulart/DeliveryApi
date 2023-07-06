@@ -60,11 +60,11 @@ public class EventControllerTest {
     void registerTest() throws Exception {
         when(eventRegisterService.register(anyLong(), anyString())).thenReturn(event);
 
-        mockMvc.perform(post("/delivery/1/event")
+        mockMvc.perform(post("/delivery/" + 1L +"/event")
                         .contentType(MediaType.APPLICATION_JSON)
-                        .content("{\"description\":\"Event Description\"}"))
+                        .content("{\"description\":\"Description\"}"))
                 .andExpect(status().isOk())
-                .andExpect(content().json("{\"description\":\"Event Description\",\"deliveryId\":1}"));
+                .andExpect(content().json("{\"id\":1, \"description\":\"Description\"}"));
 
         verify(eventRegisterService, times(1)).register(anyLong(), anyString());
     }

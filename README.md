@@ -23,11 +23,11 @@ This project uses a global exception handling mechanism using `@ControllerAdvice
 
 ## Validation
 
-Request validation is implemented using JSR 380 (Bean Validation 2.0) annotations in combination with Hibernate Validator. Custom validation classes have been created where necessary to meet the application requirements.
+Request validation is implemented using JSR 380 (Bean Validation 2.0) annotations in combination with Hibernate Validator.
 
 ## API Documentation
 
-The API documentation is generated using Swagger and is available at `/swagger-ui.html` endpoint.
+The API documentation follows the OpenAPI 3 standard and is generated using Swagger and is available at `/swagger-ui.html` endpoint. 
 
 ## Setup
 
