@@ -156,6 +156,8 @@
 							<goal>report</goal>
 						</goals>
 						<configuration>
+							<excludes>
+							</excludes>
 							<dataFile>target/jacoco.exec</dataFile>
 							<outputDirectory>target/jacoco-ut</outputDirectory>
 						</configuration>
@@ -164,5 +166,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
